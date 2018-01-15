@@ -17,13 +17,14 @@
     'category': 'Test',
     'version': '0.1',
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','report'],
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/templates.xml',
-        'views/openacademy.xml'
-      
+        'views/openacademy.xml',
+        'views/partner.xml',
+        'reports.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
