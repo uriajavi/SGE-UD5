@@ -7,7 +7,7 @@
         name="openacademy.report_session_view"
         file="openacademy.report_session"
         report_type="qweb-pdf" />
-
+    <!--Template definition-->    
     <template id="report_session_view">
         <t t-call="report.html_container">
             <t t-foreach="docs" t-as="doc">
